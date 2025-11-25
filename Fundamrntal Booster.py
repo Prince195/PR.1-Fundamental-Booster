@@ -1,0 +1,17 @@
+print("===Welcome to the Interactive personal Data Collector !===")
+Name = input ("Enter your name:")
+age = int (input("Enter your age:"))
+heaight = float(input("Enter your heaight:"))
+fav_number = int (input ("Enter your fev_number :"))
+current_year = 2025
+Birthday_year =current_year - age
+print(Name)
+print(age)
+print(heaight)
+print(fav_number)
+print(Name,type(Name),id(Name))
+print(age ,type(age),id(age))
+print(heaight,type(heaight),id(heaight))
+print(fav_number,type(fav_number),id (fav_number))
+print( "Your Birth year is approximently:", Birthday_year,("Based on your age of"),age)
+print("===Thank you for using the Personal Data collector. Goodbye !===")
